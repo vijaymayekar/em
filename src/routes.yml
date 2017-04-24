@@ -1,0 +1,3 @@
+moneylist:
+  path: list/{type}
+  defaults: {'year':null, _controller: 'MoneyManager\Controller\MoneyManager::listAction'}
